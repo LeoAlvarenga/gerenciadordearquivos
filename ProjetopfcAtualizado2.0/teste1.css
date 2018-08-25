@@ -1,0 +1,110 @@
+body{
+	background-image: url('fundo.jpg');
+	background-size: cover;
+	font-family: sans-serif;
+	font-size: 20px;
+	margin: 0;
+	line-height: 24px;
+}
+
+h1{
+    margin: 0;
+    padding: 0 0 20px;
+    text-align: center;
+    font-size: 22px;
+}
+
+.navbar {
+	text-align: center;
+	width: 22%;
+	background: #2a7ba0;
+
+	
+}
+
+.navbar ul {
+	margin: 0;
+	padding: 10px;
+	list-style: none;
+	position: relative;
+	
+}
+
+.navbar ul li a {
+	display: block;
+	padding: 30px;
+	color: white;
+	text-decoration: none;
+	width: 200px;
+}
+
+.navbar ul:after{
+	content: "";
+	clear:both;
+	display: block;
+	
+}
+
+.navbar ul li {
+	float: left;
+	list-style: none;
+}
+
+
+.navbar ul ul {
+	display: none;
+}
+
+.navbar ul li:hover > ul{
+	display: block;
+}
+
+.navbar ul li:hover {
+	background: #000000;
+	transition: 0.9s;
+}
+
+.navbar ul li:hover a {
+	color: #FFFFFF;
+}
+
+.navbar ul ul {
+	background: black;
+	padding: 0;
+	margin: 0;
+	position: absolute; top: 100%;
+}
+
+.navbar ul ul li {
+	float: none;
+	position: relative;
+}
+
+.navbar ul ul li a {
+	padding: 25px;
+	color: #FFFFFF;
+	width: 300px;
+	text-align: left;
+}
+
+.navbar ul ul li a:hover{
+	background: #2a7ba0;
+	color: #000000;
+	transition: 0.9s;
+}
+
+
+footer {
+	clear: both;
+}
+
+footer {
+	padding: 20px 0;
+}
+
+footer {
+	 position: absolute;
+	 top:500px;
+	 left: 80%;
+}
+
